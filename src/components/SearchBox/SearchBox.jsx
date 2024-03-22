@@ -15,6 +15,7 @@ const SearchBox = () => {
       <input
         className={css.searchInput}
         type="text"
+        name="search"
         value={name}
         onChange={handleChangeFilter}
         placeholder="Search contact by name or phone number"
